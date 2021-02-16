@@ -11,7 +11,9 @@ h1 {
 img {
   width: 80%;
   height: 170vh;
+  margin-top: 50px;
   margin-left: 3em;
+  object-fit: cover;
 }
 .column {
   float: right;
@@ -98,7 +100,7 @@ input[type="radio"] {
   background-color: rgb(21, 21, 95);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   body {
     min-height: 130vh;
   }
@@ -110,7 +112,6 @@ input[type="radio"] {
   img {
     width: 80%;
     height: 50vh;
-
     margin-left: 3em;
   }
   .column {
